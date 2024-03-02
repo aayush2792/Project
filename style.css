@@ -79,6 +79,7 @@ textarea {
     position: absolute;
     top: -20px;
     left: 0;
-    color: #333;
+    color: #ffffff;
     font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
