@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url(/Background.jpg);
+    background-image: url(/BG.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,13 +19,13 @@ body {
 section.chat__section {
     width: 800px;
     max-width: 90%;
-    background: #93cdd6;
+    background: none;
     border-radius: 10px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .brand {
-    padding: 10px;
-    background: #ffffff;
+    padding: 5px;
+    background: #f0c1c1;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -33,7 +33,8 @@ section.chat__section {
 .brand h1 {
     text-transform: uppercase;
     font-size: 20px;
-    color: #444;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4c5a76;
     margin-left: 10px;
 }
 .message__area{
@@ -43,7 +44,7 @@ section.chat__section {
     flex-direction:  column;
     overflow-y: auto;
     padding-top: 40px;
-    background-image: url(/Background\ 2.jpg);
+    background-color: rgba(52, 52, 70, 0.5);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,10 +53,10 @@ section.chat__section {
 textarea {
     width: 100%;
     border: none;
-    padding: 20px;
+    padding: 10px;
     font-size: 16px;
     outline: none;
-    background: #FBFBFB;
+    background: #f3dcdc;
     border-radius: 10px;
 }
 
